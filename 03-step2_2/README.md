@@ -56,7 +56,7 @@ option(DEBUG "open or close log message" OFF)
 [option()](https://cmake.org/cmake/help/latest/command/option.html) 命令用于定义一个布尔型变量，CMake 的布尔型变量可以接受以下值：
 
 - 真值（True）：1，ON，YES，TRUE，Y，非零数字
-- 假值（False）：0，OFF，NO，FALSE，N，IGNORE，NOTFOUND，空字符串，以 -NOTFOUND 结尾的字符串
+- 假值（False）：0，OFF，NO，FALSE，N，IGNORE，NOTFOUND，空字符串，以 `-NOTFOUND` 结尾的字符串
 
 而且不分大小写，`ON` 和 `no` 是同义词。如果没有赋值，默认是 `OFF` 。执行 cmake 命令时，可以用 `-D DEBUG=ON` 选项设为 `ON` 。下面的 [if()](https://cmake.org/cmake/help/latest/command/if.html) 语句会判断 `DEBUG` 的值：
 
