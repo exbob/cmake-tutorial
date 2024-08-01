@@ -44,7 +44,7 @@ configure_file(Config.h.in Config.h)
 include_directories(${CMAKE_BINARY_DIR})
 ```
 
-任何 CMake 项目的最上层 CMakeLists.txt 文件必须使用 [cmake_minimum_required()](https://cmake.org/cmake/help/latest/command/cmake_minimum_required.html#command:cmake_minimum_required) 命令来指定最低 CMake 版本。这样可以确保后续的 CMake 函数在兼容的 CMake 版本下运行。
+任何 CMake 项目的最上层 CMakeLists.txt 文件必须使用 [cmake_minimum_required()](https://cmake.org/cmake/help/latest/command/cmake_minimum_required.html#command:cmake_minimum_required) 命令来指定最低 CMake 版本，这样可以确保后续的 CMake 函数在兼容的 CMake 版本下运行。当前版本是 3.x ，而且从 2.x 到 3.x 有很大变化，所以设置最低要求 3.1 比较合适。
 
 在 `cmake_minimum_required()` 之后，必须使用 [project()](https://cmake.org/cmake/help/latest/command/project.html#command:project) 命令设置项目名称，它的语法是：
 
