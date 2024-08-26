@@ -1,6 +1,6 @@
 # Step4_2 输出调试信息
 
-对于构建过程生成的内容，比如生成器表达式，可以用 [file()](https://cmake.org/cmake/help/latest/command/file.html) 命令将相关信息输出到文件，语法：
+对于 Generate 过程中生成的内容，比如生成器表达式，可以用 [file()](https://cmake.org/cmake/help/latest/command/file.html) 命令将相关信息输出到文件，语法：
 
 ```
 file(GENERATE OUTPUT <output-file> CONTENT <content>)
