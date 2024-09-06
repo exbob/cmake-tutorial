@@ -59,3 +59,5 @@ total 20
 ```
 > cmake --install build --prefix ./build/install
 ```
+
+如果要默认的 `/usr/local` 路径下，需要 root 权限执行命令。
