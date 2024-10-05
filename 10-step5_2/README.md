@@ -63,7 +63,7 @@ add_test(
     [COMMAND_EXPAND_LISTS])
 ```
 
-用 (set_tests_properties()](https://cmake.org/cmake/help/latest/command/set_tests_properties.html) 为测试任务添加属性。
+用 [set_tests_properties()](https://cmake.org/cmake/help/latest/command/set_tests_properties.html) 为测试任务添加属性。
 
 ```
 set_tests_properties(
