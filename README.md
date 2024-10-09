@@ -1,5 +1,7 @@
 # CMake Study Notes
 
+这里是 CMake 学习笔记和源码整理，基于 [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) 和 C 语言。在 00_template 文件夹下总结了一些常用的 CMake 工程模板。
+
 CMake 是一个管理源代码构建的工具，主要用于 C/C++ 语言的项目，最初被设计为 Makefile 文件的生成器，它制定了一套语法规范，可以描述目标文件（可执行文件和链接库文件）的构建过程和所需条件。CMake 的工作流分为许多阶段(time)，总结如下图：
 
 ![](./timeflow.webp)
@@ -12,8 +14,6 @@ CMake 是一个管理源代码构建的工具，主要用于 C/C++ 语言的项�
 6. Install time，将项目的目标、源文件、可执行文件和库从构建目录安装到安装位置。
 8. CPack time或packaging time，将项目打包以便发布，可以是源代码，也可以是二进制代码。
 9. Package install time，在系统范围内安装新生成的包。
-
-官方教程在 [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)，这里是学习笔记和源码整理，基于 C 语言。
 
 深入学习可以参考 CMake Cookbook ：
 - CMake Cookbook 原文：https://github.com/PacktPublishing/CMake-Cookbook
