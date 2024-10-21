@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    printf("Project %s, Version %s\n", PROJECT, VERSION);
+    printf("Project %s, Version %s, Build time %s UTC\n", PROJECT, VERSION, BUILD_TIME);
 
     pr_info("info message\n");
     pr_error("%d: %s", errno, strerror(errno));
