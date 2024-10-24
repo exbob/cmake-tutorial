@@ -10,7 +10,10 @@
 > cmake -S . -B Release -DCMAKE_BUILD_TYPE=Release
 > cmake --build Release/
 > ./Release/basic 
-Project Basic, Version 1.0
+Project Basic, Version 1.0, Build time 2024.10.24 00:53 UTC
+Commit: 1442aeb73f40dff48afbc9f01f53a65e5f3be317, Date: Wed Oct 23 16:34:37 2024 +0800
+Info : info message
+Error : 0: Success
 ```
 
 编译生成一个 Debug 版本
@@ -19,7 +22,10 @@ Project Basic, Version 1.0
 > cmake -S . -B Debug -DCMAKE_BUILD_TYPE=Debug
 > cmake --build Debug/
 > ./Debug/basic 
-Project Basic, Version 1.0
-/home/lsc/workspace/cmake-tutorial/00_template/00_Basic/main.c[0008], main : debug message
+Project Basic, Version 1.0, Build time 2024.10.24 00:56 UTC
+Commit: 1442aeb73f40dff48afbc9f01f53a65e5f3be317, Date: Wed Oct 23 16:34:37 2024 +0800
+Info : info message
+Error : 0: Success
+[/home/lsc/workspace/cmake-tutorial/00_template/00_Basic/main.c:0013]main() : debug message
 ```
 
