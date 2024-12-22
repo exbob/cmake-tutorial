@@ -9,4 +9,9 @@ This program is free software; you can redistribute it and/or modify it under th
 
 double mysqrt(double x);
 
+/*
+print version information
+*/
+void mysqrt_version();
+
 #endif
